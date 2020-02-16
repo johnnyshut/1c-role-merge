@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac9dc72d-fd1b-4389-a596-5fd2749f9900">
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac9dc72d-fd1b-4389-a596-5fd2749f9900">
   <producedTypes>
     <objectType typeId="3d146fbc-a785-4316-a345-03d8ab65c73f" valueTypeId="e7226050-ba12-4c49-847c-d4d4f986fa2e"/>
   </producedTypes>
@@ -10,57 +10,6 @@
   </synonym>
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="76fb5d45-3c81-464c-b5f6-fa530f2783dd"/>
   <defaultForm>ExternalDataProcessor.ОбъединениеРолей.Form.Форма</defaultForm>
-  <attributes uuid="e452507c-f4e3-4b61-991a-100ed49f3159">
-    <name>ФайлРолиПриемника</name>
-    <synonym>
-      <key>ru</key>
-      <value>Файл роли приемника</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-  </attributes>
-  <tabularSections uuid="abe5afbc-1c96-4e2c-80c5-0e56643a33dc">
-    <producedTypes>
-      <objectType typeId="aa1a0611-0656-4e66-9968-202332d33834" valueTypeId="ac085f43-c862-46ac-972c-399357302a58"/>
-      <rowType typeId="d042a521-3da0-4be4-b0bc-1d7c1fd510a9" valueTypeId="f9f04a71-bef7-4f33-8010-a30f6678061c"/>
-    </producedTypes>
-    <name>ФайлыИсходныхРолей</name>
-    <synonym>
-      <key>ru</key>
-      <value>Файлы исходных ролей</value>
-    </synonym>
-    <standardAttributes>
-      <dataHistory>Use</dataHistory>
-      <name>LineNumber</name>
-      <fillValue xsi:type="core:UndefinedValue"/>
-      <fullTextSearch>Use</fullTextSearch>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-    </standardAttributes>
-    <attributes uuid="833ca9aa-4d5f-4ab1-989e-deb36868e345">
-      <name>ПолноеИмяФайла</name>
-      <synonym>
-        <key>ru</key>
-        <value>Полное имя файла</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>1000</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:StringValue">
-        <value></value>
-      </fillValue>
-    </attributes>
-  </tabularSections>
   <forms uuid="1af3a204-27bd-4d02-ba88-29ef690e5af7">
     <name>Форма</name>
     <synonym>

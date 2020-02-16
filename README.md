@@ -15,11 +15,29 @@
 7. Выполняем команду "Объединить"
 8. Загружаем конфигурацию из файлов
 
+## Особенности
+
+В версии платформы 8.3.15 при выгрузке не верно формируется пространство имен. Чтобы устранить проблему вставьте, до объединения, вручную верное пространства имен в файл роли приемника.
+
+НЕ ВЕРНО:
+
+```xml
+<Rights xmlns="http://v8.1c.ru/8.2/roles" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+```
+
+ВЕРНО:
+
+```xml
+<Rights xmlns="http://v8.1c.ru/8.2/roles" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Rights" version="2.9">
+```
+
 [Лицензия](LICENSE.md)
 
 [Договоренности о доработках](CONTRIBUTING.md)
 
-[Проект EDT](.\src)
+[Проект внешних обработок и отчетов EDT](src/1C-EDT/src)
+
+[За основу взята обработка с портала Инфостарт](https://infostart.ru/public/487724/)
 
 ### TODO
 
