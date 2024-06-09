@@ -31,15 +31,4 @@
 <Rights xmlns="http://v8.1c.ru/8.2/roles" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Rights" version="2.9">
 ```
 
-[Лицензия](LICENSE.md)
-
-[Договоренности о доработках](CONTRIBUTING.md)
-
-[Проект внешних обработок и отчетов EDT](src/1C-EDT/src)
-
 [За основу взята обработка с портала Инфостарт](https://infostart.ru/public/487724/)
-
-### TODO
-
-1. Сделать на OScript, чтобы не быть привязанным к 1С предприятию
-2. Добавить в обработку визуализацию прав, чтобы при пересечении ограничений на запись можно было интерактивно выбирать нужные нам настройки
